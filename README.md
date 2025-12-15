@@ -10,9 +10,9 @@ dalam satu file SQL (`postgresql.sql`) yang mencakup DDL dan DML.
   https://youtu.be/iEeveYoD0SA
 
 ## Isi Repository
-postgresql-erd-practice/
-├─ postgresql.sql
-└─ README.md
+postgresql-erd-practice/\
+├─ postgresql.sql\
+└─ README.md\
 
 ### postgresql.sql
 Berisi:
@@ -27,10 +27,10 @@ Berisi:
 File disusun agar bisa dijalankan dari kondisi database kosong (replayable).
 
 ## Cara Menjalankan
-1. Buat database kosong
-   CREATE DATABASE erd_practice;
-2. Import file SQL
-   psql -U postgres -d erd_practice -f postgresql.sql
+1. Buat database kosong\
+   ```CREATE DATABASE erd_practice;```
+3. Import file SQL\
+   ```psql -U postgres -d erd_practice -f postgresql.sql```
 
 ## Tujuan
 - Memahami ERD (Conceptual → Logical → Physical)
@@ -42,3 +42,4 @@ File disusun agar bisa dijalankan dari kondisi database kosong (replayable).
 - Tidak ada credential atau data sensitif
 - Fokus pada database design dan SQL
 - Tidak mencakup backend framework atau ORM
+
